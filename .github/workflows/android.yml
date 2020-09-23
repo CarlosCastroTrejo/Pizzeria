@@ -12,6 +12,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: microsoft/android-app-size-diff@v0.27
+      name: Run APK size comparision
+      with:
+        baseAppPath: test/assets/test.apk
+        targetAppPath: test/assets/test.apk
+        summaryOutputPath: summary.md
     - uses: actions/checkout@v2
     - name: set up JDK 1.8
       uses: actions/setup-java@v1
