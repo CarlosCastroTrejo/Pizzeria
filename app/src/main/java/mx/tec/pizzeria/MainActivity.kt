@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         // Data
         val pizzas = arrayListOf<Pizza>(
             Pizza("Crazy Crunch",150.00,
-                arrayListOf<String>("Queso", "Pepperoni", "Orilla de Chicharron de Queso", "Parmesano"),R.drawable.crazycrunch),
+                arrayListOf<String>("Queso", "Pepperoni", "Orilla de Chicharron de Queso", "Tomate","Parmesano"),R.drawable.crazycrunch),
             Pizza("Pepperoni Clásica", 119.50,
                 arrayListOf<String>("Queso Mozzarella","Queso Muenster", "Pepperoni"),R.drawable.pepperoni),
             Pizza("3 Meat Treat",170.00,
