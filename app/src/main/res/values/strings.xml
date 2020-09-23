@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pizzeria</string>
+    <string name="txtRestaurantTitle">Little Caesars</string>
+    <string name="txtTitleMenu">Menú de pizzas</string>
+    <string name="money">MXN</string>
+    <string name="txtIngredientsDescription">Ingredientes</string>
+</resources>
